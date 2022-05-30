@@ -1,0 +1,11 @@
+fileignoreconfig:
+- filename: src/environments/environment.prod.ts
+  checksum: d3b87f33083eb6e9b7373c5652e4e9e9471d8c017f0c029bba2516e1fc293b3d
+- filename: src/environments/environment.ts
+  checksum: bd117ede31f35a77cb61a022ad8b85b0e5412a9abe0207181f2f1289a58e9449
+- filename: src/app/app.component.html
+  checksum: 358309a79a5b222df28d4acc9a4c28211e6086d506663e5cc4a0196a24c29bb3
+- filename: package-lock.json
+  checksum: c611e9e3925eabbf1e50acbd50778180f6389978fa726272185b93cb4acb5b17
+- filename: src/test.ts
+  checksum: adf0a63e0fd8fc4a54f83a15790e0b0574b813094ef09d20cc780b2ca474b154
