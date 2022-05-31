@@ -9,3 +9,5 @@ fileignoreconfig:
   checksum: c611e9e3925eabbf1e50acbd50778180f6389978fa726272185b93cb4acb5b17
 - filename: src/test.ts
   checksum: adf0a63e0fd8fc4a54f83a15790e0b0574b813094ef09d20cc780b2ca474b154
+- filename: src/index.html
+  checksum: 57d00461f6373e2a69c0ba0aaefe391f2361e2a9d04d1d88322a257fa9caf38e
