@@ -1,0 +1,29 @@
+<p>cart-item-list works!</p>
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">productId</th>
+        <th scope="col">productName</th>
+        <th scope="col">price</th>
+        <th scope="col">description</th>
+        <th scope="col">quantity</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let cartItem of cartItemList">
+<!--        <td>{{ cartItem.id }}</td>-->
+        <td>{{ cartItem.userID }}</td>
+        <td>{{ cartItem.product.productId }}</td>
+        <td>{{ cartItem.product.productName }}</td>
+        <td>{{ cartItem.product.price }}</td>
+        <td>{{ cartItem.product.description }}</td>
+        <td>{{ cartItem.quantity }}</td>
+<!--        <td><a href="mailto:{{ cartItem.product.productId }}">{{ cartItem.email }}</a></td>-->
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
